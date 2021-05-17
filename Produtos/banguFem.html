@@ -16,8 +16,10 @@
         </ul>
         
     </nav>
-    <h1>CAMISA BANGU 2020 N# 1 FEMININA</h1>
-    <div style="background-color: lightgray;">
+    <div id="ProdHeader">
+        <h1>CAMISA BANGU 2020 N# 1 FEMININA</h1>
+    </div>
+    <div id="ProdInfo" style="background-color: lightgray;">
         <H2>Info</H2>
         <p>Preço: R$ 320</p>
         <P>Tipo: FEMININA</P>
@@ -25,12 +27,12 @@
         <img src="../imagens/BanguFem.jpg" alt="Camisa feminina Bangu" width="100px">
     </div>
 
-    <div title="Avaliações">
+    <div id="ProdAvaliacao">
         <h2>Avaliação</h2>
         <p>4.5/5</p>
     </div>
 
-    <div title="EscolhaTamanho" style="background-color: lightgray;">
+    <div id="EscolhaTamanho" style="background-color: lightgray;">
         <label for="P">P</label>
         <input type="Radio" id="P" name="tamanhoCamisa" value="P">
         <label for="M">M</label>
@@ -40,26 +42,33 @@
         <br>
     </div>
 
-    <div title="EscolhaNumeroNome" style="background-color: lightgray;">
-        <p>Você deseja colocar um número na camisa</p>
-        <label for="EscolhaNumeroS">Sim</label>
-        <input type="Radio" id="EscolhaNumeroS" name="EscolhaNumero" value="EscolhaNumeroS">
-        <label for="EscolhaNumeroN">Não</label>
-        <input type="Radio" id="EscolhaNumeroN" name="EscolhaNumero" value="EscolhaNumeroN">
-        <br>
-        <input type="text">
-
-        <p>Você deseja colocar um nome na camisa</p>
-        <label for="EscolhaNomeS">Sim</label>
-        <input type="Radio" id="EscolhaNomeS" name="EscolhaNome" value="EscolhaNomeS">
-        <label for="EscolhaNomeN">Não</label>
-        <input type="Radio" id="EscolhaNomeN" name="EscolhaNome" value="EscolhaNomeN">
-        <br>
-        <input type="text">
+    <div id="EscolhaNumeroNome" style="background-color: lightgray;">
+        <div id="EscolhaNumero">
+            <p>Você deseja colocar um número na camisa</p>
+            <label for="EscolhaNumeroS">Sim</label>
+            <input type="Radio" id="EscolhaNumeroS" name="EscolhaNumero" value="EscolhaNumeroS">
+            <label for="EscolhaNumeroN">Não</label>
+            <input type="Radio" id="EscolhaNumeroN" name="EscolhaNumero" value="EscolhaNumeroN">
+            <br>
+            <input type="text">
+        </div>
+        
+        <div id="EscolhaNome">
+            <p>Você deseja colocar um nome na camisa</p>
+            <label for="EscolhaNomeS">Sim</label>
+            <input type="Radio" id="EscolhaNomeS" name="EscolhaNome" value="EscolhaNomeS">
+            <label for="EscolhaNomeN">Não</label>
+            <input type="Radio" id="EscolhaNomeN" name="EscolhaNome" value="EscolhaNomeN">
+            <br>
+            <input type="text">
+        </div>
     </div>
 
     <br>
-    <button>Colocar no Carrinho</button>
+    <div id="ButaoAddCarrinho">
+        <button>Colocar no Carrinho</button>
+    </div>
+    
 
     
 </body>
