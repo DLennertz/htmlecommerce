@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/stylesProdutos.css">
     <title>Produtos</title>
 </head>
 <body>
-    <nav>
+
+    <header><h1>MANTOS DO FUTEBOL</h1> </header>
+
+    <nav id="menu">
+
         <ul>
             <li><a href="./index.html">Index</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
             <li><a href="./meuCarrinho.html">Meu Carrinho</a></li>
             <li><a href="./perfil.html">Perfil</a></li>
-            <li><a href="./produtos.html">Produtos</a></li>
+            
         </ul>
         
     </nav>
+
+    
 
     <!--
         <ul>
@@ -25,61 +34,88 @@
             <li><a href="./Produtos/flamengoMas.html">Camisa flamengo Masculina</a></li>
         </ul>
     -->
-    <div id="camisaBarcelonaMas">
-        <a href="./Produtos/barcelonaMas.html">
-            <img src="./imagens/BarcelonaMasc.jpg" alt="BotafogoMasc" style="width: 200px; height: 200px;">
-            <p>CAMISA BARCELONA 2020 N# 1 MASCULINA</p>
-        </a>
-    </div>
 
-    <div id="camisaBarcelonaFem">
-        <a href="./Produtos/barcelonaFem.html">
-            <img src="./imagens/BarcelonaFem.jpg" alt="BotafogoFem" style="width: 225px; height: 225px;">
-            <p>CAMISA BARCELONA 2020 N# 2 FEMININA</p>
-        </a>
-    </div>
 
-    <div id="camisaFluminenseMas">
-        <a href="./Produtos/fluminenseMas.html">
-            <img src="./imagens/FluminenseMasc.jpg" alt="FluminenseMas" style="width: 200px; height: 200px;">
-            <p>CAMISA FLUMINENSE 2020 N# 1 MASCULINA</p>
-        </a>
-    </div>
+    <div id="divTotal"> 
 
-    <div id="camisaFluminenseFem">
-        <a href="./Produtos/fluminenseFem.html">
-            <img src="./imagens/FluminenseFem.jpg" alt="FluminenseFem" style="width: 200px; height: 200px;">
-            <p>CAMISA FLUMINENSE 2020 N# 1 FEMININA</p>
-        </a>
-    </div>
 
-    <div id="camisaFlamengoMas">
-        <a href="./Produtos/flamengoMas.html">
-            <img src="./imagens/FlamengoMasc.jpg" alt="FlamengoMas" style="width: 200px; height: 200px;">
-            <p>CAMISA FLAMENGO 2020 N# 1 MASCULINA</p>
-        </a>
-    </div>
+        <div id="divFileira1">
 
-    <div id="camisaFlamengoFem">
-        <a href="./Produtos/flamengoFem.html">
-            <img src="./imagens/FlamengoFem.jpg" alt="FlamengoFem" style="width: 200px; height: 200px;">
-            <p>CAMISA FLAMENGO 2020 N# 1 FEMININA</p>
-        </a>
-    </div>
+                <div id="divCamisa" style="margin-left: 10%;">
+                    <a href="./Produtos/barcelonaMas.html" >
+                        <img src="./imagens/BarcelonaMasc.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA BARCELONA 2020 N# 1 MASCULINA</p>
+                    </a>
+                </div>
 
-    <div id="camisaBotafogoMas">
-        <a href="./Produtos/botafogoMas.html">
-            <img src="./imagens/BotafogoMasc.jpg" alt="BotafogoMasc" style="width: 200px; height: 200px;">
-            <p>CAMISA BOTAFOGO 2020 N# 1 MASCULINA</p>
-        </a>
-    </div>
+                <div id="divCamisa">
+                    <a href="./Produtos/barcelonaFem.html">
+                        <img src="./imagens/BarcelonaFem.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA BARCELONA 2020 N# 2 FEMININA</p>
+                    </a>
+                </div>
 
-    <div id="camisaBotafogoFem">
-        <a href="./Produtos/botafogoFem.html">
-            <img src="./imagens/BotafogoFem.jpg" alt="BotafogoFem" style="width: 225px; height: 225px;">
-            <p>CAMISA BOTAFOGO 2020 N# 1 FEMININA</p>
-        </a>
-    </div>
+                <div id="divCamisa">
+                    <a href="./Produtos/fluminenseMas.html">
+                        <img src="./imagens/FluminenseMasc.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA FLUMINENSE 2020 N# 1 MASCULINA</p>
+                    </a>
+                </div>
+
+                <div id="divCamisa" style="margin-right: 10%;">
+                    <a href="./Produtos/fluminenseFem.html">
+                        <img src="./imagens/FluminenseFem.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA FLUMINENSE 2020 N# 1 FEMININA</p>
+                    </a>
+                </div>
+               
+        </div>
+
+
+        <div id="divFileira2">
+
+                <div id="divCamisa" style="margin-left: 10%;">
+                    <a href="./Produtos/flamengoMas.html">
+                        <img src="./imagens/FlamengoMasc.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA FLAMENGO 2020 N# 1 MASCULINA</p>
+                    </a>
+                </div>
+
+                <div id="divCamisa">
+                    <a href="./Produtos/flamengoFem.html">
+                        <img src="./imagens/FlamengoFem.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA FLAMENGO 2020 N# 1 FEMININA</p>
+                    </a>
+                </div>
+
+                <div id="divCamisa">
+                    <a href="./Produtos/botafogoMas.html">
+                        <img src="./imagens/BotafogoMasc.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA BOTAFOGO 2020 N# 1 MASCULINA</p>
+                    </a>
+                </div>
+
+                <div id="divCamisa" style="margin-right: 10%;">
+                    <a href="./Produtos/botafogoFem.html">
+                        <img src="./imagens/BotafogoFem.jpg" alt="imagemCamisa" id="imagemCamisa" >
+                        <p id="nomeCamisa">CAMISA BOTAFOGO 2020 N# 1 FEMININA</p>
+                    </a>
+                </div>
+
+        </div>
+
+    </div> 
+
+    <footer >
+            <h2>Criadores</h2>
+            <p>Daniel Lennertz <a href="mailto:danielelennertz@gmail.com">Me envie um e-mail</a></p>
+            <p>Gustavo Mellado <a href="mailto:gustavomellado555@gmail.com">Me envie um e-mail</a></p>
+            <p>Alan Schmitz <a href="mailto:alan.s.schmitz@gmail.com">Me envie um e-mail</a></p>
+            <p>Marcelo Pires<a href="mailto:marcelopjrdev@gmail.com">Me envie um e-mail</a> </p>
+       
+    </footer>
 
 </body>
+
+
 </html>

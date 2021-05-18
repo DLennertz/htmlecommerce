@@ -1,0 +1,63 @@
+#divTotal {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+}
+
+#divFileira1 {
+
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 5%;
+}
+
+#divFileira2 {
+
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 5%;
+    
+
+}
+
+#divCamisa {
+
+    width: 260px;
+    height: 260px;
+    margin-top: 1%;
+    position: relative;
+    
+}
+
+#divCamisa:hover {
+    transition: transform .5s;
+    transform: scale(1.2);
+    transition: filter 1s;
+    filter: brightness(0.5);
+}
+
+#imagemCamisa {
+    width: 250px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+#nomeCamisa {
+    font-family: 'Poppins', sans-serif;
+    bottom: -6%;
+    color: black;
+    text-align: center;
+}
+
+
