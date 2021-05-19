@@ -6,47 +6,78 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/stylesCarrinho.css">
         <title>Meu Carrinho</title>
     </head>
 
     <body>
+        <header>
 
-        <div id="container">
-            <header>
+            <div>
+                <img src="./imagens/logo.png" alt="logo" id="logo" > 
+            </div>
 
-                <div>
-                    <img src="./imagens/logo.png" alt="logo" id="logo" > 
-                </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="./index.html">Index</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./meuCarrinho.html" style="border-top: 2px solid black;">Meu Carrinho</a></li>
+                    <li><a href="./perfil.html" >Perfil</a></li> 
+                </ul> 
+            </nav>
 
-                <nav id="menu">
-                    <ul>
-                        <li><a href="./index.html">Index</a></li>
-                        <li><a href="./produtos.html">Produtos</a></li>
-                        <li><a href="./meuCarrinho.html" style="border-top: 2px solid black;">Meu Carrinho</a></li>
-                        <li><a href="./perfil.html" >Perfil</a></li> 
-                    </ul> 
-                </nav>
+        </header>
 
-            </header>
+        <div id="container">  
+
+            <div id="divCarrinho">
                 
-                <h1>Carrinho</h1>
+                <h1 style="text-align: center;">Carrinho</h1>
 
-                <div title="ProdCarrinho">
-                    <h2>Selecionados</h2>
-                    <p><a href="./Produtos/fluminensefem.html">Fluminense 2020/1/F</a></p>
-                    <br>
-                    <button>Finalizar compra</button>
-                </div>
-        </div>
-                <footer>
-                    <div title="Contato">
-                        <h2>Criadores</h2>
-                        <p>Daniel Lennertz <a href="mailto:danielelennertz@gmail.com">Me envie um e-mail</a></p>
-                        <p>Gustavo Mellado <a href="mailto:gustavomellado555@gmail.com">Me envie um e-mail</a></p>
-                        <p>Alan Schmitz <a href="mailto:alan.s.schmitz@gmail.com">Me envie um e-mail</a></p>
-                        <p>Marcelo Pires<a href="mailto:marcelopjrdev@gmail.com">Me envie um e-mail</a> </p>
+                <div id="divProdutos">
+                    
+                    <h2 >Selecionados</h2>
+
+                    <div id="produtoSelecionado">
+                        <div id="divImagemCamisa"> 
+                                <img src="./imagens/VascoMasc.jpg" alt="camisaVasco">
+                        </div>
+
+                        <div id="infosProduto">
+                            <h2>CAMISA VASCO 2020 N# 10 Masculina</h2>
+                            <br>
+                            <p>Tamanho M</p>
+                            <br>
+                            <p id="unit">Unit: x1</p>
+
+                        </div>
+
+                        <div id="valorProduto">
+                            <h2>VALOR</h2>
+                            <p>R$300,00</p>
+                        </div>
                     </div>
-                </footer>
+
+                    
+                    <button>Finalizar compra</button>
+
+                </div> 
+
+            </div>
+
+           
+
+        </div>
+
+        <footer>
+            <div title="Contato">
+                <h2>Criadores</h2>
+                <p>Daniel Lennertz <a href="mailto:danielelennertz@gmail.com">Me envie um e-mail</a></p>
+                <p>Gustavo Mellado <a href="mailto:gustavomellado555@gmail.com">Me envie um e-mail</a></p>
+                <p>Alan Schmitz <a href="mailto:alan.s.schmitz@gmail.com">Me envie um e-mail</a></p>
+                <p>Marcelo Pires<a href="mailto:marcelopjrdev@gmail.com">Me envie um e-mail</a> </p>
+            </div>
+        </footer>
         
     </body>
 </html>

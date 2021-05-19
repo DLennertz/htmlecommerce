@@ -19,8 +19,10 @@
     border-radius: 10%;
     display: flex;
     flex-direction: column;
+
     justify-content: center;
-    
+    align-content: center;
+    text-align: center;
 }
 
 #genFem {
@@ -28,24 +30,25 @@
     border-radius: 10%;
     display: flex;
     flex-direction: column;
+
     justify-content: center;
-    
+    align-content: center;
+    text-align: center;
 }
 
 #buttonGen {
+
     width: 200px;
     height: 50px;
 
     position: relative;
-    
-    left: calc(50% - 100px);
-    top: 70%;
-
     background: transparent;
 
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
 
     font-size: 25px;
+
+
     
 }
 
@@ -78,12 +81,14 @@
 
 #escritaIma {
     font-size: 40px ;
-    position: relative;
+    
 
    text-align: center;
    top: 75%;
 
    font-family: 'Poppins', sans-serif;
+
+   margin-top: 5%;
 
    color: white;
 
