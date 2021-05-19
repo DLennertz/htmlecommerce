@@ -1,53 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Pagina Inicial</title>
-</head>
-<body>
-    <header>
-        <img src="./imagens/logo.png" alt="logo" id="logo">
-    </header>
 
-    <nav id="menu"> 
-        <ul>
-            <li><a href="./index.html">Index</a></li>
-            <li><a href="./produtos.html">Produtos</a></li>
-            <li><a href="./meuCarrinho.html">Meu Carrinho</a></li>
-            <li><a href="./perfil.html">Perfil</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Pagina Inicial</title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <div>
+                
+                <img src="./imagens/logo.png" alt="logo" id="logo">
             
-        </ul>
-    </nav>
+            </div>
+
+            <nav id="menu"> 
+                <ul>
+                    <li><a href="./index.html" style="border-top: 2px solid black;">Index</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./meuCarrinho.html">Meu Carrinho</a></li>
+                    <li><a href="./perfil.html">Perfil</a></li>
+                    
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="primeiraParte">
+
+        </div>
+
+        <div id="produtoGen">
+
+                <div id="genMasc" style="background-image: url('./imagens/divMasculino2.png'); width: 607px; height: 405px;">
+                    
+                    <a href="">  
+                        <h2 id="escritaIma">MASCULINO</h2>
+                        <button id="buttonGen">
+                            <div>CONHECER</div>
+                        </button>
+                    </a>
+                </div>     
+
+                <div id="genFem" style="background-image: url('./imagens/divFeminino3.jpg'); width: 607px; height: 405px;">
+                    
+                    <a href=""> 
+                        <h2 id="escritaIma">FEMININO</h2>
+                        <button id="buttonGen">
+                           <div>CONHECER</div>
+                        </button>
+                    </a>
+                </div>
+        </div>
+
+        
+        <div id="divPromo">
+                <h2 >PROMOCOES</h2>
+        </div>
 
 
+        <div id="Ofertas"> 
+            
+            <div id="divCamisa" style="margin-left: 25%;">
+            <a href="./Produtos/banguMas.html"><img src="./imagens/BanguMasc.jpg" alt="" id="imagemCamisa"></a> 
+                <p id="escritaPromo">Desconto de 10%</p>
+            </div>
+            <div id="divCamisa">
+                <a href="./Produtos/saoPauloFem.html"><img src="./imagens/SãoPauloFem.jpg" alt="" id="imagemCamisa"></a>
+                <p id="escritaPromo">Desconto de 5%</p>
+            </div>
+            <div id="divCamisa" style="margin-right: 25%;">
+                <a href="./Produtos/botafogoMas.html"></a><img src="./imagens/BotafogoMasc.jpg" alt="" id="imagemCamisa"></a>
+                <p id="escritaPromo">Desconto de 20%</p>
+            </div>
+        </div>
 
-    <div id="Ofertas"> 
-        <div id="divCamisa" style="margin-left: 25%;">
-           <a href="./Produtos/banguMas.html"><img src="./imagens/BanguMasc.jpg" alt="" id="imagemCamisa"></a> 
-            <p id="escritaPromo">Desconto de 10%</p>
-        </div>
-        <div id="divCamisa">
-            <a href="./Produtos/saoPauloFem.html"><img src="./imagens/SãoPauloFem.jpg" alt="" id="imagemCamisa"></a>
-            <p id="escritaPromo">Desconto de 5%</p>
-        </div>
-        <div id="divCamisa" style="margin-right: 25%;">
-            <a href="./Produtos/botafogoMas.html"></a><img src="./imagens/BotafogoMasc.jpg" alt="" id="imagemCamisa"></a>
-            <p id="escritaPromo">Desconto de 20%</p>
-        </div>
-    </div>
-
-    <footer>
-        <div title="Contato">
-            <h2>Criadores</h2>
-            <p>Daniel Lennertz <a href="mailto:danielelennertz@gmail.com">Me envie um e-mail</a></p>
-            <p>Gustavo Mellado <a href="mailto:gustavomellado555@gmail.com">Me envie um e-mail</a></p>
-            <p>Alan Schmitz <a href="mailto:alan.s.schmitz@gmail.com">Me envie um e-mail</a></p>
-            <p>Marcelo Pires<a href="mailto:marcelopjrdev@gmail.com">Me envie um e-mail</a> </p>
-        </div>
-    </footer>
-</body>
+        <footer>
+            <div title="Contato">
+                <h2>Criadores</h2>
+                <p>Daniel Lennertz <a href="mailto:danielelennertz@gmail.com">Me envie um e-mail</a></p>
+                <p>Gustavo Mellado <a href="mailto:gustavomellado555@gmail.com">Me envie um e-mail</a></p>
+                <p>Alan Schmitz <a href="mailto:alan.s.schmitz@gmail.com">Me envie um e-mail</a></p>
+                <p>Marcelo Pires<a href="mailto:marcelopjrdev@gmail.com">Me envie um e-mail</a> </p>
+            </div>
+        </footer>
+        
+    </body>
 </html>

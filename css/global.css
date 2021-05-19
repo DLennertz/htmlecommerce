@@ -2,6 +2,14 @@
 
 body,input,textarea,button{
     font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    width: 100%;
+    max-width: 1920px;
+    overflow-x: hidden;
+   
 }
 
 * {
@@ -9,23 +17,42 @@ body,input,textarea,button{
     padding: 0;
 }
 
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+/*HEADER*/
+
+header div {
+    display: flex; 
+    justify-content: center;
+    
+    margin-bottom: -75px; 
+    margin-top: 20px;
+}
+
+
 #menu ul {
 
-    padding:0px;
-    margin:0px;
     background-color:#EDEDED;
     list-style:none;
-
+   
+   box-shadow: 0px 0px 10px 0px black;
+  
 }
 
 #menu ul li {
     display: inline;
+    
+    
 }
 
 #menu ul li a {
 
     padding: 10px 200px;
     display: inline-block;
+    
 
     color: #333;
     text-decoration: none;
@@ -37,7 +64,7 @@ body,input,textarea,button{
 #menu ul :hover {
     background-color:#D6D6D6;
     color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
+    border-bottom:3px solid #000000;
 }
 
 a:link {
@@ -52,23 +79,28 @@ a:visited {
 
 header {
     width: 100%;
-
 }
 
 #logo {
     width: 100px;
     height: 100px;
-    margin-left: calc(50% - 50px);
-    
-    
+    z-index: 5;
 }
+
 footer {
-    position: absolute;
-    bottom: -20%;
+    position: relative;
+    margin-top: auto;
     width: 100%;
-    background-color: rgb(156, 151, 151);
-    color: white;
+    background-color: #EDEDED;
+    
     text-align: left;
+    
+    box-shadow: 0 0 10px 0px black;
+
+  }
+
+  button {
+      cursor: pointer;
   }
 
 

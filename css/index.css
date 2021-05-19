@@ -1,3 +1,95 @@
+#primeiraParte {
+
+}
+
+#produtoGen {
+
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin-top: 5%;
+    
+}
+
+#genMasc{
+    margin-left: 17%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#genFem {
+    margin-right: 17%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#buttonGen {
+    width: 200px;
+    height: 50px;
+
+    position: relative;
+    
+    left: calc(50% - 100px);
+    top: 70%;
+
+    background: transparent;
+
+    border: 1px solid white;
+
+    font-size: 25px;
+    
+}
+
+
+#buttonGen:hover {
+
+    /*border: 2px solid black;*/
+    background: white;
+    
+}
+
+#buttonGen div {
+    width: 200px;
+    height: 50px;
+    color: #EDEDED;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#buttonGen div:hover {
+    color: black;
+    z-index: 50;
+    
+}
+
+
+#escritaIma {
+    font-size: 40px ;
+    position: relative;
+
+   text-align: center;
+   top: 75%;
+
+   font-family: 'Poppins', sans-serif;
+
+   color: white;
+
+   
+}
+
 #Ofertas {
 
     width: 100%;
@@ -8,6 +100,21 @@
     justify-content: space-between;
 
     margin-top: 5%;
+    margin-bottom: 40px;
+
+    
+}
+
+#divPromo {
+    width: 100%;
+    height: 30px;
+    border-top: 1px  solid black;
+    border-bottom: 1px  solid black;
+    margin-top: 5%;
+}
+
+#divPromo h2{
+    text-align: center;
 }
 
 #divCamisa {
@@ -39,3 +146,5 @@
     color: rgb(252, 54, 5);
     text-align: center;
 }
+
+
