@@ -1,0 +1,111 @@
+#principal{
+    width: 70%;
+    height: 100%;
+
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+#camisa{
+    width: auto;
+    height: auto;
+    
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+#divInfoCamisa{
+    width: 70%;
+    height: auto;
+    
+
+    margin-top: 1%;
+    margin-left: 3%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#EscolhaTamanho{
+    margin-top: 5%;
+}
+
+#EscolhaNumero{
+    margin-top: 10%;
+}
+
+#EscolhaNome{
+    margin-top: 10%;
+}
+
+#Preço{
+    margin-top: 25%;
+}
+
+#ProdAvaliacao{
+    margin-top: 1%;
+}
+
+
+
+#DivDescricaoCamisa{
+    width: 70%;
+    height: 50%;
+
+
+    border-top: 2px solid black;
+    margin-top: 1%;
+}
+
+
+#ButaoAddCarrinho {
+    width: 200px;
+    height: 50px;
+
+    background: transparent;
+
+    border: 1px solid black;
+
+    font-size: 15px;
+
+}
+
+#ButaoAddCarrinho div {
+    width: 200px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ButaoAddCarrinho:hover {
+
+    background: black;
+
+}
+
+#ButaoAddCarrinho div:hover {
+    color: white;
+    z-index: 50;
+
+}
+
+#ButaoAddCarrinho{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#ProdAvaliacao {
+    margin-top: 1%;
+}
+#ProdDescricao {
+    margin-top: 3%;
+}
+#ProdDimensão {
+    margin-top: 3%;
+}

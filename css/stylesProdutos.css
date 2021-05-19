@@ -35,6 +35,20 @@
 
 }
 
+#divFileira3 {
+
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 5%;
+    
+
+}
+
 #divCamisa {
 
     width: 260px;
