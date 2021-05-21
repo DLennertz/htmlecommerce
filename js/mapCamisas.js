@@ -22,9 +22,11 @@ var prodDetail = [
 ]
 
 document.getElementById("container").innerHTML = prodDetail.map ( (prod, index) => {
+    var url_string = (window.location.href).toLowerCase();
+    var url = new URL(url_string);
+    var id = url.searchParams.get("id");
     
-    
-    if (prod.id == "5") {
+    if (prod.id == id) {
     return(
     `<div id="principal">
     
