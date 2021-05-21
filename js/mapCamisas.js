@@ -1,34 +1,34 @@
 
 var prodDetail = [
 
-        {id:"0",titulo:"CAMISA BARCELONA 2020",subtitulos:"N# 10 Masculina",img:"./imagens/BarcelonaMasc.jpg" ,preco:"325",descricao:"A camisa titular do Barcelona para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
-        {id:"1",titulo:"CAMISA BARCELONA 2020",subtitulos:"N# 10 Feminina",img:"./imagens/BarcelonaFem.jpg" ,preco:"325",descricao:"A camisa titular do Barcelona para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"} , 
+    { id: "0", titulo: "CAMISA BARCELONA 2020", subtitulos: "N# 10 Masculina", img: "./imagens/BarcelonaMasc.jpg", preco: p = 325, parcela: (p / 10), descricao: "A camisa titular do Barcelona para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
+    { id: "1", titulo: "CAMISA BARCELONA 2020", subtitulos: "N# 10 Feminina", img: "./imagens/BarcelonaFem.jpg", preco: p = 325, parcela: (p / 10), descricao: "A camisa titular do Barcelona para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
 
-        {id:"2",titulo:"CAMISA BOTAFOGO 2020",subtitulos:"N# 10 Masculina",img:"./imagens/BotafogoMasc.jpg" ,preco:"325",descricao:"A camisa titular do Botafogo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
-        {id:"3",titulo:"CAMISA BOTAFOGO 2020",subtitulos:"N# 10 Feminina",img:"./imagens/BotafogoFem.jpg" ,preco:"325",descricao:"A camisa titular do Botafogo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
+    { id: "2", titulo: "CAMISA BOTAFOGO 2020", subtitulos: "N# 10 Masculina", img: "./imagens/BotafogoMasc.jpg", preco: p = 200, parcela: (p / 10), descricao: "A camisa titular do Botafogo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
+    { id: "3", titulo: "CAMISA BOTAFOGO 2020", subtitulos: "N# 10 Feminina", img: "./imagens/BotafogoFem.jpg", preco: p = 200, parcela: (p / 10), descricao: "A camisa titular do Botafogo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
 
-        {id:"4",titulo:"CAMISA FLAMENGO 2020",subtitulos:"N# 10 Masculina",img:"./imagens/FlamengoMasc.jpg" ,preco:"325",descricao:"A camisa titular do Flamengo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
-        {id:"5",titulo:"CAMISA FLAMENGO 2020",subtitulos:"N# 10 Feminina",img:"./imagens/FlamengoFem.jpg" ,preco:"325",descricao:"A camisa titular do Flamengo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
+    { id: "4", titulo: "CAMISA FLAMENGO 2020", subtitulos: "N# 10 Masculina", img: "./imagens/FlamengoMasc.jpg", preco: p = 310, parcela: (p / 10), descricao: "A camisa titular do Flamengo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
+    { id: "5", titulo: "CAMISA FLAMENGO 2020", subtitulos: "N# 10 Feminina", img: "./imagens/FlamengoFem.jpg", preco: p = 310, parcela: (p / 10), descricao: "A camisa titular do Flamengo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
 
-        {id:"6",titulo:"CAMISA FLUMINENSE 2020",subtitulos:"N# 10 Masculina",img:"./imagens/FluminenseMasc.jpg" ,preco:"325",descricao:"A camisa titular do Fluminense para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
-        {id:"7",titulo:"CAMISA FLUMINENSE 2020",subtitulos:"N# 10 Feminina",img:"./imagens/FluminenseFem.jpg" ,preco:"265",descricao:"A camisa titular do Fluminense para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
+    { id: "6", titulo: "CAMISA FLUMINENSE 2020", subtitulos: "N# 10 Masculina", img: "./imagens/FluminenseMasc.jpg", preco: p = 250, parcela: (p / 10), descricao: "A camisa titular do Fluminense para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
+    { id: "7", titulo: "CAMISA FLUMINENSE 2020", subtitulos: "N# 10 Feminina", img: "./imagens/FluminenseFem.jpg", preco: p = 250, parcela: (p / 10), descricao: "A camisa titular do Fluminense para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
 
-        {id:"8",titulo:"CAMISA SAO PAULO 2020",subtitulos:"N# 10 Masculina",img:"./imagens/SaoPauloMasc.jpg" ,preco:"325",descricao:"A camisa titular do Sao Paulo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
-        {id:"9",titulo:"CAMISA SAO PAULO 2020",subtitulos:"N# 10 Feminina",img:"./imagens/SaoPauloFem.jpg" ,preco:"325",descricao:"A camisa titular do Sao Paulo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
+    { id: "8", titulo: "CAMISA SAO PAULO 2020", subtitulos: "N# 10 Masculina", img: "./imagens/SaoPauloMasc.jpg", preco: p = 150, parcela: (p / 10), descricao: "A camisa titular do Sao Paulo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
+    { id: "9", titulo: "CAMISA SAO PAULO 2020", subtitulos: "N# 10 Feminina", img: "./imagens/SaoPauloFem.jpg", preco: p = 150, parcela: (p / 10), descricao: "A camisa titular do Sao Paulo para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
 
-        {id:"10",titulo:"CAMISA VASCO 2020",subtitulos:"N# 10 Masculina",img:"./imagens/VascoMasc.jpg" ,preco:"325",descricao:"A camisa titular do Vasco para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
-        {id:"11",titulo:"CAMISA VASCO 2020",subtitulos:"N# 10 Feminina",img:"./imagens/VascoFem.jpg" ,preco:"325",descricao:"A camisa titular do Vasco para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano"},
-        
+    { id: "10", titulo: "CAMISA VASCO 2020", subtitulos: "N# 10 Masculina", img: "./imagens/VascoMasc.jpg", preco: p = 300, parcela: (p / 10), descricao: "A camisa titular do Vasco para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
+    { id: "11", titulo: "CAMISA VASCO 2020", subtitulos: "N# 10 Feminina", img: "./imagens/VascoFem.jpg", preco: p = 300, parcela: (p / 10), descricao: "A camisa titular do Vasco para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
+
 ]
 
-document.getElementById("container").innerHTML = prodDetail.map ( (prod, index) => {
+document.getElementById("container").innerHTML = prodDetail.map((prod, index) => {
     var url_string = (window.location.href).toLowerCase();
     var url = new URL(url_string);
     var id = url.searchParams.get("id");
-    
+
     if (prod.id == id) {
-    return(
-    `<div id="principal">
+        return (
+            `<div id="principal">
     
                 <div id="camisa">
                     <img src="${prod.img}" width="100%" height="100%"/>
@@ -71,8 +71,8 @@ document.getElementById("container").innerHTML = prodDetail.map ( (prod, index) 
                         </div>
                       
                     <div id="Preço" >
-                        <h2><strong>Preço: ${prod.preco}</strong></h2>
-                        <p>Ou em 10x de R$30,00 sem juros.</p>
+                        <h2><strong>Preço: R$ ${prod.preco.toFixed(2)}</strong></h2>
+                        <p>Ou em 10x de R$ ${prod.parcela.toFixed(2)} sem juros.</p>
                     </div>
     
                     <div id="DivButao">
@@ -103,12 +103,12 @@ document.getElementById("container").innerHTML = prodDetail.map ( (prod, index) 
                             </ul>
                     </div>    
                 </div>    
-            </div>` 
-        
-    )
+            </div>`
+
+        )
     }
     else {
         return;
     }
-  }
+}
 ).join();
