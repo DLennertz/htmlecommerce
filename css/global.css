@@ -6,8 +6,8 @@ body,input,textarea,button{
 }
 
 body {
-    width: 100%;
-    max-width: 1920px;
+    width: auto;
+    max-width: auto;
     overflow-x: hidden;
    
 }
@@ -18,58 +18,130 @@ body {
 }
 
 #container {
+
     width: 100%;
-    height: 100%;
+    height: auto;
+
     display: flex;
+    flex-direction: column;
+
+
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    
     padding-bottom: 60px;
+
 }
 
 /*HEADER*/
 
-header div {
-    display: flex; 
-    justify-content: center;
+header {
     
-    margin-bottom: -75px; 
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: auto;
+
 }
 
+#menu {
+
+    width: 80%;
+    height: auto;
+
+    padding-top: 3%;
+
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 #menu ul {
 
-    background-color:#EDEDED;
     list-style:none;
    
-   box-shadow: 0px 0px 10px 0px black;
-  
+    width:100%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu ul li {
-    display: inline;
-    
-    
+
+    min-width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+#menu ul li img {
+
+    max-width: 100px;
+    max-height: 100px;
+
+    min-width: 50px;
+    min-height: 50px;
+  
+}
+
 
 #menu ul li a {
 
-    padding: 10px 200px;
-    display: inline-block;
-    
+    display: block;
+    padding: 10px;
 
-    color: #333;
+    font-size: 80%;
+
+    text-transform: uppercase;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    text-align: center;
+
+    color: #000;
+    border-bottom: 1px solid #000;
+   
     
+    width: 80%;
+    min-width: 40%;
 
 }
 
-#menu ul :hover {
-    background-color:#D6D6D6;
+#menu ul li:nth-child(1) {
+    margin-right: 30px;
+    
+}
+#menu ul li:nth-child(2) {
+    margin-right: 30px;
+
+}
+
+#menu ul li:nth-child(3) {
+    margin-right: 30px;
+    
+}
+
+#menu ul li:nth-child(4) {
+    margin-right: 30px;
+    
+  }
+
+  #menu ul li:nth-child(5) {
+    margin-right: 30px;
+    
+  }
+
+#menu ul li a:hover {
+
     color: #6D6D6D;
-    border-bottom:3px solid #000000;
+    border-top:1px solid #000000;
+    
 }
 
 a:link {
@@ -80,16 +152,6 @@ a:link {
 a:visited {
     color: rgb(0, 0, 0);
     
-}
-
-header {
-    width: 100%;
-}
-
-#logo {
-    width: 100px;
-    height: 100px;
-    z-index: 5;
 }
 
 footer {
