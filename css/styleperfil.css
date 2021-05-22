@@ -9,32 +9,28 @@
     width: 80%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
-#perfil{
+#infoemp{
     margin-left: 10%;
     margin-top: 2%;
     
 }
+#mapa{
+    width: 100%;
+    height: 100%;
 
-#fotoperfil {
-    width: 40%;
-    height: 40%;
+    display: flex;
+    justify-content: center;
 }
 
-#comprados{
-    margin-top: 5%;
-
+#atuacao{
+    width: 100%;
+    height: 100%;
 }
 
-#comprados img {
-    width: 7%;
-    height: 7%;
-} 
-#comprados a {
-    
-    color: black;
+{
 
 }
