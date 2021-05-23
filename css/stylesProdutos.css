@@ -53,4 +53,18 @@
     font-size: 1.6rem;
 }
 
+.bg_video{
+	position: fixed; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+    align-items: center;
+}
+
+
+
 
