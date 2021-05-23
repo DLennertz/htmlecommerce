@@ -1,35 +1,32 @@
 
-#divFileira1 {
+#divProdutos {
 
-    width: 100%;
-    height: 300px;
+    border-top: 2px solid black;
+    padding-top: 2%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: auto;
+    height: auto;
 
-    margin-top: 5%;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
-#divFileira2 {
+    row-gap: 10%;
+    column-gap: 10%;
 
-    width: 100%;
-    height: 300px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    margin-top: 5%;
+    justify-content: center;
     
+    margin-top: 5%;
+    margin-bottom: 20%;
+
 }
+
 
 #divCamisa {
 
-    width: 260px;
-    height: 260px;
-    margin-top: 1%;
+    width: auto;
+    height: auto;
     position: relative;
+    margin-top: 1%;
     
 }
 
@@ -41,14 +38,16 @@
 }
 
 #imagemCamisa {
-    width: 250px;
-    height: 240px;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 50%;
 }
 
 #nomeCamisa {
+
     font-family: 'Poppins', sans-serif;
     bottom: -6%;
     color: black;
     text-align: center;
+    font-size: 1.6rem;
 }

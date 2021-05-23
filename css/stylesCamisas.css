@@ -1,20 +1,26 @@
 #principal{
+
     width: 70%;
     height: 100%;
 
     margin-top: 3%;
-    display: flex;
-    flex-direction: row;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        
+    row-gap: 1%;
+    column-gap: 3%;
+
 }
 
 #camisa{
     width: auto;
     height: 100%;
     
-
     display: flex;
     align-items: baseline;
     justify-content: baseline;
+
 }
 
 #divInfoCamisa{
@@ -30,9 +36,14 @@
     flex-direction: column;
 
 }
+
+#ProdHeader h1 {
+    font-size: 3.6rem;
+}
+
 #EscolhaTamanho {
 
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 
 }
 #escolhasCamisa{
@@ -46,30 +57,33 @@
 }
 
 #escolhaNumero {
-
+    font-size: 1.8rem;
     height: 60%;
     max-width: 100%;
 
 }
 
 #escolhaNome {
- 
+    font-size: 1.8rem;
     height: 60%;  
     max-width: 100%;
 
 }
 
 #EscolhaTamanho{
-    margin-top: 1%;
+    font-size: 1.8rem;
+    margin-top: 5%;
     margin-bottom: 1%;
 }
 
-#Preço{
+#Preço h2{
+    font-size: 2.5rem;
     margin-top: 1%;
 }
 
 #aviso {
     margin-top: 2%;
+    font-size: 1.6rem;
 }
 
 #DivButao {
@@ -81,12 +95,18 @@
     margin-top: 1%;
 }
 
+#ProdAvaliacao p{
+    font-size: 1.4rem;
+    margin-top: 1%;
+}
+
 
 
 #DivDescricaoCamisa{
     width: 70%;
     height: 50%;
 
+    font-size: 2rem;
 
     border-top: 2px solid black;
     margin-top: 1%;
@@ -101,35 +121,29 @@
 
     border: 1px solid black;
 
-    font-size: 15px;
-
+    font-size: 1.6rem;
 }
 
 #ButaoAddCarrinho div {
-    
     width: 200px;
     height: auto;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #ButaoAddCarrinho:hover {
-
     background: black;
-
 }
 
 #ButaoAddCarrinho div:hover {
     color: white;
     z-index: 50;
-
 }
 
+
 #ButaoAddCarrinho{
-    
     margin-bottom: 2%;
 }
 
@@ -141,4 +155,33 @@
 }
 #ProdDimensão {
     margin-top: 3%;
+}
+
+
+@media (max-width: 800px) {
+
+    #ButaoAddCarrinho {
+
+        width: 100px;
+        height: 25px;
+    
+        background: transparent;
+    
+        border: 1px solid black;
+    
+        font-size: 1.6rem;
+    
+    }
+    
+    #ButaoAddCarrinho div {
+        
+        width: 100px;
+        height: 25px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
 }

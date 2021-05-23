@@ -132,6 +132,11 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
 
                     </div>
 
+                <div id="ProdAvaliacao">
+                    <h2> <strong> Avaliação </strong> </h2>
+                    <p>4.5/5</p>
+                </div>
+
                 </div>
                 
             </div>
@@ -139,10 +144,7 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
             
             <div id="DivDescricaoCamisa">
 
-                <div id="ProdAvaliacao">
-                    <h2>Avaliação</h2>
-                    <p>4.5/5</p>
-                </div>
+
 
                 <div id="ProdDescricao">
                     <h2>Descrição:</h2>

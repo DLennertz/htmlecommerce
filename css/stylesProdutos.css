@@ -1,6 +1,10 @@
 
 #divProdutos {
 
+    border-top: 2px solid black;
+    padding-top: 2%;
+
+
     width: auto;
     height: auto;
 
@@ -45,6 +49,7 @@
     bottom: -6%;
     color: black;
     text-align: center;
+    font-size: 1.6rem;
 }
 
 
