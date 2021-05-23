@@ -135,6 +135,7 @@
     padding-bottom: 2%;
 
 }
+
 #title h2{
     margin-top: 2%;
     font-size: 2.0rem;
@@ -142,11 +143,11 @@
 
 #Ofertas {
 
-    width: 80%;
+    width: 60%;
     height: auto;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 
     row-gap: 100px;
     column-gap: 100px;
@@ -157,15 +158,15 @@
     margin-top: 2%;
     
 
-    
-
 }
 
 #divCamisa {
 
     width: auto;
     height: auto;
-    
+    position: relative;
+    margin-top: 1%;
+
 }
 
 #divCamisa:hover {
@@ -189,5 +190,105 @@
     text-align: center;
 }
 
+@media (max-width: 966px) {
+
+    #Ofertas {
+        padding-top: 8%;
+    }
+
+    #produtoGen {
+
+        
+        justify-content: center;
+        padding-left: 20%;
+
+    }
+
+    #genMasc{
+
+        margin-left: 8%;
+        height: 303px;
+        
+        width: 100%;
+        max-width: 403px;
+        
+        border-radius: 10%;
+        display: grid;
+    
+        grid-template-rows: auto auto;
+    
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    
+        position: relative;
+    
+    }
+    
+    #genFem {
+    
+        margin-left: 8%;
+        height: 303px;
+    
+        width: 100%;
+        max-width: 403px;
+    
+        
+        border-radius: 10%;
+        display: grid;
+        
+        grid-template-rows: auto auto;
+    
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    
+    }
+    
+    #buttonGen {
+    
+        width: 200px;
+        height: 50px;
+    
+        position: relative;
+        background: transparent;
+    
+        border: 1px solid rgb(255, 255, 255);
+    
+        font-size: 25px;
+    
+    
+    }
+    
+    
+    #buttonGen:hover {
+    
+        /*border: 2px solid black;*/
+        background: white;
+        
+    }
+    
+    #buttonGen div {
+    
+        width: 200px;
+        height: 50px;
+        color: #EDEDED;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        
+    }
+    
+    #buttonGen div:hover {
+        color: black;
+        z-index: 50;
+        
+    }
 
 
+
+
+
+}
