@@ -126,7 +126,7 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
     
                     <div id="DivButao">
                         <p id="aviso" style="color: red;">Escolha um tamanho!</p>
-                        <button id="ButaoAddCarrinho" disabled onclick="verifyCompra()">
+                        <button id="ButaoAddCarrinho"  disabled  onclick="verifyCompra()">
                             <div>Colocar no Carrinho</div> 
                         </button>
 
@@ -171,3 +171,4 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
     }
 }
 ).join("");
+

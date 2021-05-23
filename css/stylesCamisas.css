@@ -156,32 +156,3 @@
 #ProdDimensão {
     margin-top: 3%;
 }
-
-
-@media (max-width: 800px) {
-
-    #ButaoAddCarrinho {
-
-        width: 100px;
-        height: 25px;
-    
-        background: transparent;
-    
-        border: 1px solid black;
-    
-        font-size: 1.6rem;
-    
-    }
-    
-    #ButaoAddCarrinho div {
-        
-        width: 100px;
-        height: 25px;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-
-}
