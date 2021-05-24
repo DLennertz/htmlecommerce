@@ -3,6 +3,7 @@ var InputValue;
 function getTamanhoCamisa(inputV) {
 
     InputValue = inputV.value;
+    
 
     if (InputValue == "P" || InputValue == "M" || InputValue == "G") {
         document.getElementById("ButaoAddCarrinho").disabled=false;

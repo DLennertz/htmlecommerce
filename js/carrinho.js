@@ -21,8 +21,12 @@ var prodDetail = [
 ]
 
 
+
+
 document.getElementById("divCarrinho").innerHTML = prodDetail.map((prod, index) => {
 
+
+        
         var url_string = (window.location.href).toLowerCase();
         var url = new URL(url_string);
         var id = url.searchParams.get("id");
