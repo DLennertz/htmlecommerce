@@ -6,70 +6,54 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/global.css">
-        <link rel="stylesheet" href="./css/styleperfil.css">
-        <title>Perfil</title>
+        <link rel="stylesheet" href="./css/stylesCarrinho.css">
+        <title>Meu Carrinho</title>
     </head>
 
-    <body >
+    <body>
         <header>
 
             <nav id="menu">
                 
                 <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./produtos.html" >Produtos</a></li>
 
                 <li>  <img src="./imagens/logo.png" alt="" >  </li>
 
-                <li><a href="./meuCarrinho.html">Carrinho</a></li>
-                <li><a href="./perfil.html" style="border-top: 1px solid black;">Sobre Nós</a></li>
+                <li><a href="./meuCarrinho.html" style="border-top: 1px solid black;">Carrinho</a></li>
+                <li><a href="./perfil.html">Sobre Nós</a></li>
                 </ul>
                
         </nav>
 
         </header>
 
-        <div id="container">
-            <div id="principal">
-                <div id="infoemp">
+        <div id="container">  
 
-                    <h3 >Quem somos? </h3>
-                    <p>O Grupo Five é o maior vendedor nacional de camisas esportivas, prezando 
-                        sempre pela qualidade e excelente experiência dos clientes. </p>
-                    <br>
-                    <h3>Um pouco da nossa história: </h3>
-                    <p>O Grupo Five teve ínicio em Petrópolis, em 2021, quando grandes incentivadores do 
-                        comércio esportivo se reuniram e decidiram mudar o curso dos e-commerces brasileiros. 
-                        A partir dai, o grupo vem fazendo história e inovando a cada dia no ramo. Por esse motivo, 
-                        o grupo expandiu os negócios para fora das fronteiras brasileira, e pretende atuar em mais 
-                        dois continentes até o final do ano.</p>
-                    <br>
-                    <h3 >Políticas da empresa: </h3>
-                    <p>Os clientes sempre devem ter a melhor experiência, por isso somos clistanos em nossos preços, 
-                        prazos e descrições. E mesmo que o cliente se arrependam da compra, a devolução é feita em no 
-                        mínimo 30 horas, e o dinheiro é integralmente devolvido.</p>
-                    <br>
-                    <h3 >Metas: </h3>
-                    <p>Expandir a área de atuação, para outros esportes, e fazer desse grupo uma referência para o 
-                        e-commerce global.</p>
-                    <br>
-                
-                    <div id="mapa" >
-                        <h3>Nossa sede:</h3>
-                        <br>
-                        <iframe src="https://www.google.com/maps/embed?pb=!4v1621713261836!6m8!1m7!1sCAoSLEFGMVFpcE82OS00NWUwT3JidXhoTWEwNTcyLW9rUUx4aklaODZrRnF3SUo1!2m2!1d33.4685936!2d-111.6847458!3f5.136184019326526!4f3.2746176124554154!5f0.7820865974627469" id="frameMapa" ></iframe>
-                        <br>
-                    </div>
-                    <br>
-                    <h3 style="border-top: 2px solid black;">Área de atuação:</h3>
-                    <div id="atuacao">
-                        <img src="./imagens/Mapa.png" alt="" width="70%" height="70%">
-                    </div>
-                </div>
+            <div id="divPerfil">
+
+                <h1 style="text-align: center; font-size: 200%;">Dados do usuário</h1>
+                <ul style="font-size: 150%;">
+                    <li>Nome: Daniel Lennertz</li>
+                    <li>CPF: 123.456.789-01</li>
+                    <li>Endereço: Rua do Imperador, 1001, Centro, Petrópolis, Rio de Janeiro, Brasil.</li>
+                    <li>CEP: 12345-678</li>
+                </ul>
+
+            </div>
+
+            <div id="divCarrinho">
 
 
             </div>
+
         </div>
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+        <script src="./js/function.js"></script>
+        <script src="./js/carrinho.js"></script>
+
         <footer>
             <div id="prodape">
     
@@ -135,6 +119,6 @@
     
             </div>    
             </footer>
-
+        
     </body>
 </html>

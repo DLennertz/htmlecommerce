@@ -1,4 +1,3 @@
-
 var prodDetail = [
 
     { id: "0", titulo: "CAMISA BARCELONA 2020", subtitulos: "N# 10 Masculina", img1: "./imagens/barcelona/masculina/BarcelonaMasc1.jpg",img2:"./imagens/barcelona/masculina/BarcelonaMasc2.jpg" ,img3:"./imagens/barcelona/masculina/BarcelonaMasc3.jpg",  preco: p = 325, parcela: (p / 10), descricao: "A camisa titular do Barcelona para 2021, fabricada pela Kappa, é a opção correta para os torcedores demonstrarem sua paixão pelo Alvinegro Carioca. Mais detalhes: Composição: 95% Poliéster e 05% Elastano" },
@@ -21,19 +20,50 @@ var prodDetail = [
 
 ]
 
-document.getElementById("divProdutos").innerHTML = prodDetail.map((prod) => {
 
-       return (
+document.getElementById("divCarrinho").innerHTML = prodDetail.map((prod, index) => {
 
-        `     
-        <div id="divCamisa">
-                <a href="./produtosMap.html?id=${prod.id}" >
-                    <img src="${prod.img1}" alt="imagemCamisa" id="imagemCamisa" >
-                    <p id="nomeCamisa">${prod.titulo} ${prod.subtitulos}</p>
-                </a>
-        </div>
+        var url_string = (window.location.href).toLowerCase();
+        var url = new URL(url_string);
+        var id = url.searchParams.get("id");
+       
+        if (prod.id == id) {
+            
+            return (
+                `  
+                
+                <div id="divProdutos">
+                    
+                    <h2 style="font-size: 200%;">Carrinho</h2>
 
-        `)
- 
-}
-).join("");
+                    <div id="produtoSelecionado">
+                        <div id="divImagemCamisa"> 
+                                <img src="${prod.img1}" alt="camisa">
+                        </div>
+
+                        <div id="infosProduto">
+                            <h2>${prod.titulo}</h2>
+                            <br>
+                            <p>${prod.subtitulos}</p>
+                            <br>
+                        </div>
+
+                        <div id="valorProduto">
+                            <h2>VALOR</h2>
+                            <p>${prod.preco}</p>
+                        </div>
+                    </div>
+                
+
+                <button onclick="verifyCompra()">Finalizar compra</button>
+
+                </div>
+                `
+    
+            )
+        }
+        else {
+            return;
+        }
+    }
+    ).join("");

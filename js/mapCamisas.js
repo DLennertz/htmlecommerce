@@ -27,9 +27,11 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
     var url = new URL(url_string);
     var id = url.searchParams.get("id");
 
+        
     if (prod.id == id) {
         return (
             ` 
+
             <div id="principal">
             
                 <div id="camisa">
@@ -93,7 +95,7 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
                         <div id="escolhaNumero">
                             <h4>Você deseja personalizar o número na camisa?</h4>
                             <label for="EscolhaNumeroS">Sim</label>
-                            <input type="Radio" id="EscolhaNumeroS" name="EscolhaNumero" value="EscolhaNumeroS"  >
+                            <input type="Radio" id="EscolhaNumeroS" name="EscolhaNumero" value="EscolhaNumeroS" checked >
                             <label for="EscolhaNumeroN">Não</label>
                             <input type="Radio" id="EscolhaNumeroN" name="EscolhaNumero" value="EscolhaNumeroN" >
                             <br>
@@ -106,7 +108,7 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
 
                             <h4>Você deseja personalizar nome na camisa?</h4>
                             <label for="EscolhaNomeS">Sim</label>
-                            <input type="Radio" id="EscolhaNomeS" name="EscolhaNome" value="EscolhaNomeS">
+                            <input type="Radio" id="EscolhaNomeS" name="EscolhaNome" value="EscolhaNomeS" checked>
                             <label for="EscolhaNomeN">Não</label>
                             <input type="Radio" id="EscolhaNomeN" name="EscolhaNome" value="EscolhaNomeN" >
                             <br>
@@ -126,9 +128,12 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
     
                     <div id="DivButao">
                         <p id="aviso" style="color: red;">Escolha um tamanho!</p>
-                        <button id="ButaoAddCarrinho"  disabled  onclick="verifyCompra()">
+                        
+                        <button id="ButaoAddCarrinho"  disabled onclick="verifyCarrinho(${prod.id})" >
+
                             <div>Colocar no Carrinho</div> 
-                        </button>
+
+                        </button></a>
 
                     </div>
 
@@ -172,3 +177,9 @@ document.getElementById("container").innerHTML = prodDetail.map((prod, index) =>
 }
 ).join("");
 
+function verifyCarrinho(id) {
+
+    alert("Produto adicionado no carrinho!")
+    location.href='./carrinhoItem.html?id='+id;
+    
+}

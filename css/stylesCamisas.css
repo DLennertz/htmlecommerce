@@ -137,11 +137,15 @@
     background: black;
 }
 
+
 #ButaoAddCarrinho div:hover {
     color: white;
     z-index: 50;
 }
 
+#ButaoAddCarrinho:active {
+    transform: translateY(3px);
+}
 
 #ButaoAddCarrinho{
     margin-bottom: 2%;

@@ -13,11 +13,17 @@ function getTamanhoCamisa(inputV) {
 
 function verifyCompra() {
 
-        alert("Muito Obrigado pela sua compra!")
-    
+        alert("Compra aprovada! Muito obrigado pela compra! Até mais!")
+        
+        location.href='./index.html';
+        
 }
 
+function verifyCompra2() {
 
+    alert("Carrinho vazio, por favor escolha uma camisa!")
+    
+}
 
 $(document).ready(function (e) {
     
